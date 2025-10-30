@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Tabella Scolastico 5N</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body style="background-color: rgb(232, 229, 227);">
+
+         <section id="section1">
+            <h1>Orario scolastico</h1>
+            <h2>Bryan Revillosa 5N</h2>
+        </section>
+
+        <section id="section2">
+             <table border="black">
+                <tr bgcolor="whitesmoke">
+                    <th>ore</th>
+                    <th>Lunedi</th>
+                    <th>ore</th>
+                    <th>Martedi</th>
+                    <th>ore</th>
+                    <th>Mercoledi</th>
+                    <th>ore</th>
+                    <th>Giovedi</th>
+                    <th>ore</th>
+                    <th>Venerdi</th>
+                </tr>
+
+                <tr>
+                    <th>17:00-18:00</th>
+                    <td bgcolor="pink">Italiano</td>
+                    <th>17:00-17:50</th>
+                    <td bgcolor="yellow">Matematica</td>
+                    <th rowspan="2">17:00-18:00</th>
+                    <td bgcolor="pink">Italiano</td>
+                    <th>17:00-17:50</th>
+                    <td bgcolor="blue">Lab.GPO</td>
+                    <th>17:00-18:00</th>
+                    <td bgcolor="lightgreen">Sisit</td>
+                </tr>
+
+                <tr>
+                    <th>18:00-19:00</th>
+                    <td bgcolor="orange">GPO</td>
+                    <th>17:50-18:50</th>
+                    <td bgcolor="lightblue">Storia</td>
+                    <td bgcolor="pink">Italiano</td>
+                    <th>17:50-18:50</th>
+                    <td bgcolor="yellow">Matematica</td>
+                    <th>18:00-19:00</th>
+                    <td bgcolor="purple">Lab.Tpsit</td>
+                </tr>
+
+
+                <tr>
+                    <th colspan="10">Intervallo</th>
+                </tr>
+
+
+                <tr>
+                    <th rowspan="2">19:00-21:00</th>
+                    <td bgcolor="red">Lab.Sisit</td>
+                    <th>18:50-19:50</th>
+                    <td bgcolor="lightgrey">Lab.Info</td>
+                    <th rowspan="2">19:00-21:00</th>
+                    <td bgcolor="lightgreen">Inglese</td>
+                    <th>18:50-19:50</th>
+                    <td bgcolor="purple">Lab.Tpsit</td>
+                    <th>19:00-20:00</th>
+                    <td bgcolor="lightgrey">Lab.Info</td>
+                </tr>
+
+                <tr>
+                    <td bgcolor="red">Lab.Sisit</td>
+                    <th>19:50-20:40</th>
+                    <td bgcolor="lightblue">Storia</td>
+                    <td bgcolor="lightgreen">Inglese</td>
+                    <th>19:50-20:40</th>
+                    <td bgcolor="yellow">Matematica</td>
+                    <th>20:00-21:00</th>
+                    <td bgcolor="blue">Tpsit</td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <th>20:40-21:30</th>
+                    <td bgcolor="darkorange">Informatica</td>
+                    <td></td>
+                    <td></td>
+                    <th>20:40-21:30</th>
+                    <td bgcolor="darkorange">Informatica</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                
+            </table>
+
+        </section>
+
+
+    </body>
+</html>
